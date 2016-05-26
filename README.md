@@ -6,10 +6,7 @@ This is a docker to install nginx with php support, and a website that contains 
 Clone this project on your pc: `git clone git@github.com:davidcsi/sip-tester.git`
 
 The webtool provides some options to make testing easier like user-ids, domain-req and domain-dns which are taken from csv files. You need to create your own csv files:
-<<<<<<< HEAD
 Before starting the container mounting the volumes, you can add the following info:
-=======
->>>>>>> 104f75d1c384c640e5a36a75f5d665092ee7a298
 Inside the project's directory, go to app/sip-tester and edit the csv files to add this info.
 The meaning of the files:
 
@@ -35,17 +32,13 @@ This will pull a docker from `webdevops/php:centos-7` which is the base docker c
 
 To have access to the webtool, you need to forward the http port, i.e. 8888->80.
 Also, the webpage connects via websocket to a server running in the docker on port 65000, so you need to forward that port like: 
+
 ```
-<<<<<<< HEAD
 docker run -it -p 8888:80 -p 65000:65000 -v $PWD/app:/app YOURUSER/sip-tester
-=======
-docker run -it -p 8888:80 -p 65000:65000 YOURUSER/sip-tester
->>>>>>> 104f75d1c384c640e5a36a75f5d665092ee7a298
 ``` 
 
 when it's up and running, you need to connect to it via http, open your browser to:
 `http://docker-host-ip:8888/app`
-<<<<<<< HEAD
 
 ## Contributing
 
@@ -60,10 +53,6 @@ TODO: Write history
 TODO: Write credits
 ## License
 TODO: Write license
-
-=======
->>>>>>> 104f75d1c384c640e5a36a75f5d665092ee7a298
-
 
 The main page is a php script gathering necessary information, such as:
 
