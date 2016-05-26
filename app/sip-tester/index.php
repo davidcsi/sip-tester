@@ -126,7 +126,8 @@
 					?>
 				</select></td></tr> 
 			<tr><td>Domain (Req)</td><td>
-				<select id="domain" name="domain">
+			<input type="text" id="domain" list="domain_list" name="domain"/>
+				<datalist id="domain_list">
                     <?php
                     $file = fopen( $test_req_domain, 'r' );
                     $data = fread($file, filesize( $test_req_domain ));
@@ -140,7 +141,7 @@
                         }
                     }
                     ?>
-                    </select></td></tr> 
+                    </datalist></td></tr> 
 			<tr><td>Domain (DNS)</td> <td>
 			<input type="text" id="req_domain" list="req_domain2" name="req_domain"/>
 				<datalist id="req_domain2">
