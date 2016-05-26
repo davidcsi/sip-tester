@@ -6,7 +6,10 @@ This is a docker to install nginx with php support, and a website that contains 
 Clone this project on your pc: `git clone git@github.com:davidcsi/sip-tester.git`
 
 The webtool provides some options to make testing easier like user-ids, domain-req and domain-dns which are taken from csv files. You need to create your own csv files:
+<<<<<<< HEAD
 Before starting the container mounting the volumes, you can add the following info:
+=======
+>>>>>>> 104f75d1c384c640e5a36a75f5d665092ee7a298
 Inside the project's directory, go to app/sip-tester and edit the csv files to add this info.
 The meaning of the files:
 
@@ -33,11 +36,16 @@ This will pull a docker from `webdevops/php:centos-7` which is the base docker c
 To have access to the webtool, you need to forward the http port, i.e. 8888->80.
 Also, the webpage connects via websocket to a server running in the docker on port 65000, so you need to forward that port like: 
 ```
+<<<<<<< HEAD
 docker run -it -p 8888:80 -p 65000:65000 -v $PWD/app:/app YOURUSER/sip-tester
+=======
+docker run -it -p 8888:80 -p 65000:65000 YOURUSER/sip-tester
+>>>>>>> 104f75d1c384c640e5a36a75f5d665092ee7a298
 ``` 
 
 when it's up and running, you need to connect to it via http, open your browser to:
 `http://docker-host-ip:8888/app`
+<<<<<<< HEAD
 
 ## Contributing
 
@@ -53,8 +61,9 @@ TODO: Write credits
 ## License
 TODO: Write license
 
+=======
+>>>>>>> 104f75d1c384c640e5a36a75f5d665092ee7a298
 
-This is a web tool to launch tests against any SIP Sever.
 
 The main page is a php script gathering necessary information, such as:
 
@@ -86,5 +95,21 @@ As default, we have the following scenarios:
 - successfullcall.xml
 - wait_for_incomin_call.xml
 
-When a test is executed, the web page connects via websocket on port 8181 to a websocket server (perl), which in turn executes the tests with SIPP and sends the output and logs to the web php page.
+When a test is executed, the web page connects via websocket written server (perl), which in turn executes the tests with SIPP and sends the output and logs to the web php page.
+
+
+## Contributing
+
+1. Fork it!
+2. Create your feature branch: `git checkout -b my-new-feature`
+3. Commit your changes: `git commit -am 'Add some feature'`
+4. Push to the branch: `git push origin my-new-feature`
+5. Submit a pull request :D
+## History
+TODO: Write history
+## Credits
+TODO: Write credits
+## License
+TODO: Write license
+
 
