@@ -76,7 +76,7 @@
 	<form id='testform'>
 
 		<table border="1" cellpadding="3">
-			<tr><td>Libon UserID:</td> <td><input type="text" id="user" name="user" size="20" maxlength="20" list="users_default"/>
+			<tr><td>User ID:</td> <td><input type="text" id="user" name="user" size="20" maxlength="20" list="users_default"/>
 				<datalist id="users_default">
                     <?php
                     $file = fopen( $test_users_id, 'r' );
@@ -93,7 +93,7 @@
                     ?>
 				</datalist>
 			</td></tr> 
-			<tr><td>User MSISDN</td> <td><input type="text" id="user_msisdn" name="user_msisdn" size="20" maxlength="30" list="users_msisdn_default"/>
+			<tr><td>User Phone Number</td> <td><input type="text" id="user_msisdn" name="user_msisdn" size="20" maxlength="30" list="users_msisdn_default"/>
 				<datalist id="users_msisdn_default">
                     <?php
                     $file = fopen( $test_users_phone_number, 'r' );
