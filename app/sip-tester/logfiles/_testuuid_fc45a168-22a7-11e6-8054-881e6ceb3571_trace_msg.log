@@ -1,0 +1,214 @@
+Problem EAGAIN on socket  12 and poll_idx  is 3 
+Added first buffered message to socket 12
+Problem EWOULDBLOCK on socket  12 and poll_idx  is 3 
+Exit problem event on socket 12 
+Wrote 424 of 424 bytes in an output buffer.
+----------------------------------------------- 2016-05-25 18:39:18.030468
+TCP message received [508] bytes :
+
+SIP/2.0 401 Unauthorized
+Via: SIP/2.0/TCP 172.17.0.2:5060;received=148.3.165.4;branch=z9hG4bK-523-1-0;rport=52046
+From: <sip:40311851@staging.voip.lifeisbetteron.com>;tag=1
+To: <sip:40311851@staging.voip.lifeisbetteron.com>;tag=5990eeba3f50f06380d392a3b2f97127-40bc
+Call-ID: 1-523@172.17.0.2
+CSeq: 1 REGISTER
+WWW-Authenticate: Digest realm="staging.voip.lifeisbetteron.com", nonce="V0X/YFdF8VABxGYUQQd06Uw4XxS46EDHydmDxJyubIn7F6OTdjelRE15HI+A", qop="auth"
+Server: Kamailio/Libon
+Content-Length: 0
+
+
+----------------------------------------------- 2016-05-25 18:39:18.031214
+TCP message sent (701 bytes):
+
+REGISTER sip:staging.voip.lifeisbetteron.com SIP/2.0
+Via: SIP/2.0/TCP 172.17.0.2:5060;rport;branch=z9hG4bK-523-1-3
+From: <sip:40311851@staging.voip.lifeisbetteron.com>;tag=1
+To: <sip:40311851@staging.voip.lifeisbetteron.com>
+Call-ID: 1-523@172.17.0.2
+CSeq: 2 REGISTER
+Contact: <sip:40311851@172.17.0.2:5060;transport=TCP>
+Authorization: Digest username="40311851",realm="staging.voip.lifeisbetteron.com",cnonce="6b8b4567",nc=00000001,qop=auth,uri="sip:90.84.151.45:5060",nonce="V0X/YFdF8VABxGYUQQd06Uw4XxS46EDHydmDxJyubIn7F6OTdjelRE15HI+A",response="8fd800242c1624c02973201f2bad6244",algorithm=MD5
+Max-Forwards: 15
+Expires: 3600
+User-Agent: Linphone/3.5.2 (QAP Tester)
+Content-Length: 0
+
+
+----------------------------------------------- 2016-05-25 18:39:18.074102
+TCP message received [490] bytes :
+
+SIP/2.0 200 OK
+Via: SIP/2.0/TCP 172.17.0.2:5060;received=148.3.165.4;branch=z9hG4bK-523-1-3;rport=52046
+From: <sip:40311851@staging.voip.lifeisbetteron.com>;tag=1
+To: <sip:40311851@staging.voip.lifeisbetteron.com>;tag=5990eeba3f50f06380d392a3b2f97127-0510
+Call-ID: 1-523@172.17.0.2
+CSeq: 2 REGISTER
+P-LibonBackgroundModeDuration: 1206
+P-LBMD: 1206
+P-QOS: 1
+P-ABT: 100
+Contact: <sip:40311851@172.17.0.2:5060;transport=TCP>;expires=600
+Server: Kamailio/Libon
+Content-Length: 0
+
+
+----------------------------------------------- 2016-05-25 18:39:18.074628
+TCP message sent (957 bytes):
+
+INVITE sip:+33186260617@staging.voip.lifeisbetteron.com SIP/2.0
+Via: SIP/2.0/TCP 172.17.0.2:5060;rport;branch=z9hG4bK-523-1-6
+From: "LibonQA VTP" <sip:40311851@staging.voip.lifeisbetteron.com>;tag=1
+To: "LibonQA Absorber" <sip:+33186260617@staging.voip.lifeisbetteron.com>
+Call-ID: 1-523@172.17.0.2
+CSeq: 3 INVITE
+Contact: sip:40311851@172.17.0.2:5060
+Content-Type: application/sdp
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, REFER, NOTIFY, MESSAGE, SUBSCRIBE, INFO
+Max-Forwards: 15
+Supported: replaces,outbound
+User-Agent: Linphone/3.5.2 (QAP Tester)
+Subject: "Successful Call Test +33186260617"
+P-Asserted-Identity: sip:+33186260617@staging.voip.lifeisbetteron.com
+OnCallerOs: iPhone
+OnNetwork: Wifi
+Content-Length:  217
+
+v=0
+o=40311851 2100 2100 IN IP4 172.17.0.2
+s=Talk
+c=IN IP4 172.17.0.2
+t=0 0
+m=audio 6000 RTP/AVP 114 109 96 8 101
+a=rtpmap:96 opus/48000/2
+a=fmtp:96 mode=30
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-11
+
+----------------------------------------------- 2016-05-25 18:39:18.102718
+TCP message received [323] bytes :
+
+SIP/2.0 100 Trying
+Via: SIP/2.0/TCP 172.17.0.2:5060;received=148.3.165.4;branch=z9hG4bK-523-1-6;rport=52046
+From: "LibonQA VTP" <sip:40311851@staging.voip.lifeisbetteron.com>;tag=1
+To: "LibonQA Absorber" <sip:+33186260617@staging.voip.lifeisbetteron.com>
+Call-ID: 1-523@172.17.0.2
+CSeq: 3 INVITE
+Content-Length: 0
+
+
+----------------------------------------------- 2016-05-25 18:39:18.266410
+TCP message received [1204] bytes :
+
+SIP/2.0 183 Session Progress
+Via: SIP/2.0/TCP 172.17.0.2:5060;received=148.3.165.4;branch=z9hG4bK-523-1-6;rport=52046
+From: "LibonQA VTP" <sip:40311851@staging.voip.lifeisbetteron.com>;tag=1
+To: "LibonQA Absorber" <sip:+33186260617@staging.voip.lifeisbetteron.com>;tag=v2aSr2m5BBZyc
+Call-ID: 1-523@172.17.0.2
+CSeq: 3 INVITE
+Contact: <sip:+33186260617@90.84.151.45:5060;transport=tcp>
+User-Agent: FreeSWITCH/Libon-b602f3e1-20160114140207
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, MESSAGE, INFO, UPDATE, REGISTER, REFER, NOTIFY, PUBLISH, SUBSCRIBE
+P-CD: 10314
+P-FS: 244
+Supported: timer, path, replaces
+Allow-Events: talk, hold, conference, presence, as-feature-event, dialog, line-seize, call-info, sla, include-session-description, presence.winfo, message-summary, refer
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 298
+P-CC: 10314
+
+v=0
+o=FreeSWITCH 1464180389 1464180390 IN IP4 90.84.151.45
+s=FreeSWITCH
+c=IN IP4 90.84.151.45
+t=0 0
+m=audio 52504 RTP/AVP 96 101
+a=rtpmap:96 opus/48000/2
+a=fmtp:96 useinbandfec=1; maxaveragebitrate=14400; maxplaybackrate=8000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-16
+a=ptime:20
+
+----------------------------------------------- 2016-05-25 18:39:21.084396
+TCP message received [1165] bytes :
+
+SIP/2.0 200 OK
+Via: SIP/2.0/TCP 172.17.0.2:5060;received=148.3.165.4;branch=z9hG4bK-523-1-6;rport=52046
+From: "LibonQA VTP" <sip:40311851@staging.voip.lifeisbetteron.com>;tag=1
+To: "LibonQA Absorber" <sip:+33186260617@staging.voip.lifeisbetteron.com>;tag=v2aSr2m5BBZyc
+Call-ID: 1-523@172.17.0.2
+CSeq: 3 INVITE
+Contact: <sip:+33186260617@90.84.151.45:5060;transport=tcp>
+User-Agent: FreeSWITCH/Libon-b602f3e1-20160114140207
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, MESSAGE, INFO, UPDATE, REGISTER, REFER, NOTIFY, PUBLISH, SUBSCRIBE
+P-CD: 10314
+P-FS: 244
+Supported: timer, path, replaces
+Allow-Events: talk, hold, conference, presence, as-feature-event, dialog, line-seize, call-info, sla, include-session-description, presence.winfo, message-summary, refer
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 298
+P-CC: 10314
+
+v=0
+o=FreeSWITCH 1464180389 1464180390 IN IP4 90.84.151.45
+s=FreeSWITCH
+c=IN IP4 90.84.151.45
+t=0 0
+m=audio 52504 RTP/AVP 96 101
+a=rtpmap:96 opus/48000/2
+a=fmtp:96 useinbandfec=1; maxaveragebitrate=14400; maxplaybackrate=8000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-16
+a=ptime:20
+
+----------------------------------------------- 2016-05-25 18:39:21.084917
+TCP message sent (558 bytes):
+
+ACK sip:+33186260617@90.84.151.45:5060;transport=tcp SIP/2.0
+Via: SIP/2.0/TCP 172.17.0.2:5060;rport;branch=z9hG4bK-523-1-12
+From: "LibonQA VTP" <sip:40311851@staging.voip.lifeisbetteron.com>;tag=1
+To: "LibonQA Absorber" <sip:+33186260617@staging.voip.lifeisbetteron.com>;tag=v2aSr2m5BBZyc
+Call-ID: 1-523@172.17.0.2
+CSeq: 3 ACK
+Contact: sip:40311851@172.17.0.2:5060
+User-Agent: Linphone/3.5.2 (QAP Tester)
+P-Asserted-Identity: <sip:+33186260617@staging.voip.lifeisbetteron.com>
+Max-Forwards: 15
+Subject: "Successful Call Test"
+Content-Length: 0
+
+
+----------------------------------------------- 2016-05-25 18:39:31.089070
+TCP message sent (552 bytes):
+
+BYE sip:40311851@staging.voip.lifeisbetteron.com SIP/2.0
+Via: SIP/2.0/TCP 172.17.0.2:5060;rport;branch=z9hG4bK-523-1-15
+From: "LibonQA VTP" <sip:40311851@staging.voip.lifeisbetteron.com>;tag=1
+To: "LibonQA Absorber" <sip:+33186260617@staging.voip.lifeisbetteron.com>;tag=v2aSr2m5BBZyc
+Call-ID: 1-523@172.17.0.2
+CSeq: 4 BYE
+Contact: sip:40311851@172.17.0.2:5060
+User-Agent: Linphone/3.5.2 (QAP Tester)
+P-Asserted-Identity: sip:+33186260617@staging.voip.lifeisbetteron.com
+Max-Forwards: 15
+Subject: "Successful Call Test"
+Content-Length: 0
+
+
+----------------------------------------------- 2016-05-25 18:39:31.208016
+TCP message received [533] bytes :
+
+SIP/2.0 200 OK
+Via: SIP/2.0/TCP 172.17.0.2:5060;received=148.3.165.4;branch=z9hG4bK-523-1-15;rport=52046
+From: "LibonQA VTP" <sip:40311851@staging.voip.lifeisbetteron.com>;tag=1
+To: "LibonQA Absorber" <sip:+33186260617@staging.voip.lifeisbetteron.com>;tag=v2aSr2m5BBZyc
+Call-ID: 1-523@172.17.0.2
+CSeq: 4 BYE
+User-Agent: FreeSWITCH/Libon-b602f3e1-20160114140207
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, MESSAGE, INFO, UPDATE, REGISTER, REFER, NOTIFY, PUBLISH, SUBSCRIBE
+Supported: timer, path, replaces
+Content-Length: 0
+
+

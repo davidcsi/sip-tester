@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="ISO-8859-2" ?>
+
+<!--  Use with CSV file struct like: 3000;192.168.1.106;[authentication username=3000 password=3000];
+      (user part of uri, server address, auth tag in each line)
+-->
+
+<scenario name="register_and_wait_for_incoming_call">
+ <send>
+   <![CDATA[
+
+     REGISTER sip:[field2] SIP/2.0
+     Via: SIP/2.0/[transport] [local_ip]:[local_port];rport;branch=[branch]
+     From: <sip:[field0]@[field2]>;tag=[call_number]
+     To: <sip:[field0]@[field2]>
+     Call-ID: [call_id]
+     CSeq: [cseq] REGISTER
+     Contact: <sip:[field0]@[local_ip]:[local_port];transport=[transport]>
+     Max-Forwards: 15
+     Expires: 3600
+     User-Agent: Linphone/3.5.2 (QAP Tester)
+     Content-Length: 0
+
+   ]]>
+ </send>
+<recv response="200" optional="true"></recv>
+
+ <recv response="401" auth="true">
+ </recv>
+
+ <send>
+   <![CDATA[
+
+     REGISTER sip:[field2] SIP/2.0
+     Via: SIP/2.0/[transport] [local_ip]:[local_port];rport;branch=[branch]
+     From: <sip:[field0]@[field2]>;tag=[call_number]
+     To: <sip:[field0]@[field2]>
+     Call-ID: [call_id]
+     CSeq: [cseq] REGISTER
+     Contact: <sip:[field0]@[local_ip]:[local_port];transport=[transport]>
+     [field1]
+     Max-Forwards: 15
+     Expires: 3600
+     User-Agent: Linphone/3.5.2 (QAP Tester)
+     Content-Length: 0
+
+   ]]>
+ </send>
+ 
+ <recv response="404" optional="true">
+ </recv>
+ 
+ <recv response="200" >
+ </recv>
+    
+<pause milliseconds="20000"/>
+    
+</scenario>

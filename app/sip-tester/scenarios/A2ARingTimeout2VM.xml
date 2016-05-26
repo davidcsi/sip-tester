@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+ <!DOCTYPE scenario SYSTEM "sipp.dtd">
+ 
+ 
+ <scenario name="A2ARingTimeout2VM">
+  <send>
+    <![CDATA[
+ 
+      REGISTER sip:[field2] SIP/2.0
+      Via: SIP/2.0/[transport] [local_ip]:[local_port];rport;branch=[branch]
+      From: <sip:[field0]@[field2]>;tag=[call_number]
+      To: <sip:[field0]@[field2]>
+      Call-ID: [call_id]
+      CSeq: [cseq] REGISTER
+      Contact: <sip:[field0]@[local_ip]:[local_port];transport=[transport]>
+      Max-Forwards: 15
+      Expires: 3600
+      User-Agent: Linphone/3.5.2 (QAP Tester)
+      Content-Length: 0
+ 
+    ]]>
+  </send>
+ <recv response="200" optional="true" next="4"></recv>
+ 
+  <recv response="401" auth="true">
+  </recv>
+ 
+  <send>
+    <![CDATA[
+ 
+      REGISTER sip:[field2] SIP/2.0
+      Via: SIP/2.0/[transport] [local_ip]:[local_port];rport;branch=[branch]
+      From: <sip:[field0]@[field2]>;tag=[call_number]
+      To: <sip:[field0]@[field2]>
+      Call-ID: [call_id]
+      CSeq: [cseq] REGISTER
+      Contact: <sip:[field0]@[local_ip]:[local_port];transport=[transport]>
+      [field1]
+      Max-Forwards: 15
+      Expires: 3600
+      User-Agent: Linphone/3.5.2 (QAP Tester)
+      Content-Length: 0
+ 
+    ]]>
+  </send>
+  
+  <recv response="404" optional="true">
+  </recv>
+  
+  <recv response="200" >
+  </recv>
+ <label id="4"/>
+  <send>
+     <![CDATA[
+ 
+       INVITE sip:[field3]@[field4] SIP/2.0
+       Via: SIP/2.0/[transport] [local_ip]:[local_port];rport;branch=[branch]
+       From: "LibonQA VTP" <sip:[field0]@[field2]>;tag=[call_number]
+       To: "LibonQA Absorber" <sip:[field3]@[field4]>
+       Call-ID: [call_id]
+       CSeq: [cseq] INVITE
+       Contact: sip:[field0]@[local_ip]:[local_port]
+       Content-Type: application/sdp
+       Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, REFER, NOTIFY, MESSAGE, SUBSCRIBE, INFO
+       Max-Forwards: 15
+       User-Agent: Linphone/3.5.2 (QAP Tester)
+       Subject: "Rejection2VM"
+       P-Asserted-Identity: sip:[field5]@[field2]
+       OnCallerOs: iPhone
+       OnNetwork: Wifi
+       Content-Length:[len]
+ 
+       v=0
+       o=[field0] 2100 2100 IN IP[local_ip_type] [local_ip]
+       s=Talk
+       c=IN IP[media_ip_type] [media_ip]
+       t=0 0
+       m=audio [media_port] RTP/AVP 114 109 96 8 101
+       a=rtpmap:114 SILK/16000	 
+       a=rtpmap:109 SILK/8000	 
+       a=rtpmap:96 iLBC/8000	 
+       a=fmtp:96 mode=30
+       a=rtpmap:8 PCMA/8000 
+       a=rtpmap:101 telephone-event/8000
+       a=fmtp:101 0-11      
+ 	
+  
+     ]]>
+   </send>
+ 
+ 
+ <recv response="100" optional="true">
+ </recv>
+ <recv response="101" optional="true">
+ </recv>
+ <recv response="183" rrs="true" optional="true">
+ </recv>
+ <recv response="180" rrs="true" optional="true">
+ </recv>
+ 
+ <!-- We jump to label 5 if call failed with REQUEST TIMEOUT -->
+ <recv response="408" optional="true" next="5">
+ </recv>
+ 
+   <recv response="200" rrs="true" rtd="true" optional="false">
+     <action>
+       <ereg regexp="LibonVoicemail.*" search_in="hdr" header="P-Ikea-Service-Id:" check_it="true" assign_to="6"/>
+       <log message="Found Header: [$6]"/>
+     </action>
+   </recv>
+ 
+ 
+ <!-- We come here is call failed with REQUEST TIMEOUT -->
+ <label id="5"/>
+ 
+ 
+ <!-- Packet lost can be simulated in any send/recv message by         -->
+   <!-- by adding the 'lost = "10"'. Value can be [1-100] percent.       -->
+ <!--  Record-[routes] -->
+  <send crlf="true" >
+         <![CDATA[
+             ACK [next_url] SIP/2.0
+             [last_Via:]
+             Max-Forwards: 20
+             [routes]
+             From: <sip:[field1]@open-ims.test>;tag=[call_number]
+             To: <sip:[service]@[remote_ip]:5080>
+             Call-ID: [call_id]
+             CSeq: [cseq] ACK
+             Content-Length: 0
+         ]]>
+     </send>
+ 
+   <!-- This delay can be customized by the -d command-line option       -->
+   <!-- or by adding a 'milliseconds = "value"' option here.             -->
+   <nop>
+	  <action>
+	    <exec play_pcap_audio="rtp_opus.pcap"/>
+	  </action>
+	</nop>
+ <pause milliseconds="2500"/>
+  </scenario>
+ 

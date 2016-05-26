@@ -1,0 +1,453 @@
+Command: sudo ./sipp_test_launcher.pl 1 0 10.0.160.3 50001 scenarios/successfull-call-answered-by-user-agent-freeswitch.xml 40311851 +33600010001 password staging.voip.lifeisbetteron.com staging.voip.lifeisbetteron.com 40983551 40983551 1 4a75c724-2107-11e6-8153-8cd7a1a5ff4b 2>&1 |
+CSV: sipp  -skip_rlimit  staging.voip.lifeisbetteron.com -t tn -i 10.0.160.3 -inf /var/www/tester/configs/_testuuid_4a75c724-2107-11e6-8153-8cd7a1a5ff4b_inject.csv -r 1 -sf /var/www/tester/scenarios/successfull-call-answered-by-user-agent-freeswitch.xml -l 1 -m 1 -trace_logs -log_file /var/www/tester/logfiles/_testuuid_4a75c724-2107-11e6-8153-8cd7a1a5ff4b.log -trace_err -error_file /var/www/tester/logfiles/_testuuid_4a75c724-2107-11e6-8153-8cd7a1a5ff4b_error.log -trace_stat -stf /var/www/tester/logfiles/_testuuid_4a75c724-2107-11e6-8153-8cd7a1a5ff4b_stats.log -trace_shortmsg -shortmessage_file /var/www/tester/logfiles/_testuuid_4a75c724-2107-11e6-8153-8cd7a1a5ff4b_shortmsg.csv -trace_msg -message_file /var/www/tester/logfiles/_testuuid_4a75c724-2107-11e6-8153-8cd7a1a5ff4b_trace_msg.log
+
+CSV FILE: /var/www/tester/configs/_testuuid_4a75c724-2107-11e6-8153-8cd7a1a5ff4b_inject.csv
+Command: sudo ./sipp_test_launcher.pl 1 0 10.0.160.3 50001 scenarios/successfull-call-answered-by-user-agent-freeswitch.xml 40311851 +33600010001 password staging.voip.lifeisbetteron.com staging.voip.lifeisbetteron.com 40983551 40983551 1 4a89dfb6-2107-11e6-8082-8cd7a1a5ff4b 2>&1 |
+CSV: sipp  -skip_rlimit  staging.voip.lifeisbetteron.com -t tn -i 10.0.160.3 -inf /var/www/tester/configs/_testuuid_4a89dfb6-2107-11e6-8082-8cd7a1a5ff4b_inject.csv -r 1 -sf /var/www/tester/scenarios/successfull-call-answered-by-user-agent-freeswitch.xml -l 1 -m 1 -trace_logs -log_file /var/www/tester/logfiles/_testuuid_4a89dfb6-2107-11e6-8082-8cd7a1a5ff4b.log -trace_err -error_file /var/www/tester/logfiles/_testuuid_4a89dfb6-2107-11e6-8082-8cd7a1a5ff4b_error.log -trace_stat -stf /var/www/tester/logfiles/_testuuid_4a89dfb6-2107-11e6-8082-8cd7a1a5ff4b_stats.log -trace_shortmsg -shortmessage_file /var/www/tester/logfiles/_testuuid_4a89dfb6-2107-11e6-8082-8cd7a1a5ff4b_shortmsg.csv -trace_msg -message_file /var/www/tester/logfiles/_testuuid_4a89dfb6-2107-11e6-8082-8cd7a1a5ff4b_trace_msg.log
+
+CSV FILE: /var/www/tester/configs/_testuuid_4a89dfb6-2107-11e6-8082-8cd7a1a5ff4b_inject.csv
+Command: sudo ./sipp_test_launcher.pl 1 0 10.0.160.3 50001 scenarios/successfull-call-answered-by-user-agent-freeswitch.xml 40311851 +33600010001 password staging.voip.lifeisbetteron.com staging.voip.lifeisbetteron.com 40983551 40983551 1 7da36bc3-2107-11e6-8002-8cd7a1a5ff4b 2>&1 |
+CSV: sipp  -skip_rlimit  staging.voip.lifeisbetteron.com -t tn -i 10.0.160.3 -inf /var/www/tester/configs/_testuuid_7da36bc3-2107-11e6-8002-8cd7a1a5ff4b_inject.csv -r 1 -sf /var/www/tester/scenarios/successfull-call-answered-by-user-agent-freeswitch.xml -l 1 -m 1 -trace_logs -log_file /var/www/tester/logfiles/_testuuid_7da36bc3-2107-11e6-8002-8cd7a1a5ff4b.log -trace_err -error_file /var/www/tester/logfiles/_testuuid_7da36bc3-2107-11e6-8002-8cd7a1a5ff4b_error.log -trace_stat -stf /var/www/tester/logfiles/_testuuid_7da36bc3-2107-11e6-8002-8cd7a1a5ff4b_stats.log -trace_shortmsg -shortmessage_file /var/www/tester/logfiles/_testuuid_7da36bc3-2107-11e6-8002-8cd7a1a5ff4b_shortmsg.csv -trace_msg -message_file /var/www/tester/logfiles/_testuuid_7da36bc3-2107-11e6-8002-8cd7a1a5ff4b_trace_msg.log
+
+CSV FILE: /var/www/tester/configs/_testuuid_7da36bc3-2107-11e6-8002-8cd7a1a5ff4b_inject.csv
+Command: sudo ./sipp_test_launcher.pl 1 0 10.0.160.3 50001 scenarios/successfull-call-answered-by-user-agent-freeswitch.xml 40311851 +33600010001 password staging.voip.lifeisbetteron.com staging.voip.lifeisbetteron.com 40983551 40983551 1 87c69c33-2107-11e6-831d-8cd7a1a5ff4b 2>&1 |
+CSV: sipp  -skip_rlimit  staging.voip.lifeisbetteron.com -t tn -i 10.0.160.3 -inf /var/www/tester/configs/_testuuid_87c69c33-2107-11e6-831d-8cd7a1a5ff4b_inject.csv -r 1 -sf /var/www/tester/scenarios/successfull-call-answered-by-user-agent-freeswitch.xml -l 1 -m 1 -trace_logs -log_file /var/www/tester/logfiles/_testuuid_87c69c33-2107-11e6-831d-8cd7a1a5ff4b.log -trace_err -error_file /var/www/tester/logfiles/_testuuid_87c69c33-2107-11e6-831d-8cd7a1a5ff4b_error.log -trace_stat -stf /var/www/tester/logfiles/_testuuid_87c69c33-2107-11e6-831d-8cd7a1a5ff4b_stats.log -trace_shortmsg -shortmessage_file /var/www/tester/logfiles/_testuuid_87c69c33-2107-11e6-831d-8cd7a1a5ff4b_shortmsg.csv -trace_msg -message_file /var/www/tester/logfiles/_testuuid_87c69c33-2107-11e6-831d-8cd7a1a5ff4b_trace_msg.log
+
+CSV FILE: /var/www/tester/configs/_testuuid_87c69c33-2107-11e6-831d-8cd7a1a5ff4b_inject.csv
+Can't locate Net/WebSocket/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Net/WebSocket/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Net/WebSocket/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Net/WebSocket/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Net/WebSocket/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Net/WebSocket/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Net/WebSocket/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Net/WebSocket/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Net/WebSocket/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Net/WebSocket/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Net/WebSocket/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Net/WebSocket/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Net/WebSocket/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Net/WebSocket/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Net/WebSocket/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Net/WebSocket/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Net/WebSocket/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Net/WebSocket/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Net/WebSocket/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Net/WebSocket/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Net/WebSocket/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Net/WebSocket/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Net/WebSocket/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Net/WebSocket/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Net/WebSocket/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Net/WebSocket/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Net/WebSocket/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Net/WebSocket/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Net/WebSocket/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Net/WebSocket/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Net/WebSocket/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Net/WebSocket/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Net/WebSocket/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Net/WebSocket/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Net/WebSocket/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Net/WebSocket/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Net/WebSocket/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Net/WebSocket/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Protocol/WebSocket/Handshake/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+Compilation failed in require at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+Compilation failed in require at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Protocol/WebSocket/Handshake/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+Compilation failed in require at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+Compilation failed in require at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Protocol/WebSocket/Handshake/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+Compilation failed in require at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+Compilation failed in require at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Protocol/WebSocket/Handshake/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+Compilation failed in require at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+Compilation failed in require at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Protocol/WebSocket/Handshake/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+Compilation failed in require at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+Compilation failed in require at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Protocol/WebSocket/Handshake/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+Compilation failed in require at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+Compilation failed in require at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Protocol/WebSocket/Handshake/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+Compilation failed in require at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+Compilation failed in require at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Protocol/WebSocket/Handshake/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+Compilation failed in require at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+Compilation failed in require at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Protocol/WebSocket/Handshake/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+Compilation failed in require at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+Compilation failed in require at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Protocol/WebSocket/Handshake/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+Compilation failed in require at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+Compilation failed in require at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Protocol/WebSocket/Handshake/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+Compilation failed in require at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+Compilation failed in require at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Protocol/WebSocket/Handshake/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+Compilation failed in require at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+Compilation failed in require at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Protocol/WebSocket/Handshake/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+Compilation failed in require at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+Compilation failed in require at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Protocol/WebSocket/Handshake/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+Compilation failed in require at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+Compilation failed in require at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Protocol/WebSocket/Handshake/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+Compilation failed in require at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+Compilation failed in require at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Protocol/WebSocket/Handshake/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+Compilation failed in require at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+Compilation failed in require at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Protocol/WebSocket/Handshake/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+Compilation failed in require at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+Compilation failed in require at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Protocol/WebSocket/Handshake/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+Compilation failed in require at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+Compilation failed in require at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Protocol/WebSocket/Handshake/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+Compilation failed in require at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+Compilation failed in require at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Protocol/WebSocket/Handshake/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+Compilation failed in require at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+Compilation failed in require at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Protocol/WebSocket/Handshake/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+Compilation failed in require at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+Compilation failed in require at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Protocol/WebSocket/Handshake/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+Compilation failed in require at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+Compilation failed in require at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Protocol/WebSocket/Handshake/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+Compilation failed in require at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+Compilation failed in require at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Protocol/WebSocket/Handshake/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+Compilation failed in require at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+Compilation failed in require at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Protocol/WebSocket/Handshake/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+Compilation failed in require at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+Compilation failed in require at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Protocol/WebSocket/Handshake/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+Compilation failed in require at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+Compilation failed in require at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Protocol/WebSocket/Handshake/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+Compilation failed in require at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+Compilation failed in require at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Protocol/WebSocket/Handshake/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+Compilation failed in require at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+Compilation failed in require at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Protocol/WebSocket/Handshake/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+Compilation failed in require at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+Compilation failed in require at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Protocol/WebSocket/Handshake/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+Compilation failed in require at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+Compilation failed in require at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Protocol/WebSocket/Handshake/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+Compilation failed in require at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+Compilation failed in require at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Protocol/WebSocket/Handshake/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+Compilation failed in require at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+Compilation failed in require at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Protocol/WebSocket/Handshake/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+Compilation failed in require at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+Compilation failed in require at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Protocol/WebSocket/Handshake/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+Compilation failed in require at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+Compilation failed in require at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Protocol/WebSocket/Handshake/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+Compilation failed in require at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+Compilation failed in require at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Protocol/WebSocket/Handshake/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+Compilation failed in require at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+Compilation failed in require at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Protocol/WebSocket/Handshake/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+Compilation failed in require at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+Compilation failed in require at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Protocol/WebSocket/Handshake/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+Compilation failed in require at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+Compilation failed in require at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Protocol/WebSocket/Handshake/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+Compilation failed in require at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+Compilation failed in require at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Protocol/WebSocket/Handshake/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+Compilation failed in require at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+Compilation failed in require at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Protocol/WebSocket/Handshake/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+Compilation failed in require at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+Compilation failed in require at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Protocol/WebSocket/Handshake/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+Compilation failed in require at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+Compilation failed in require at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Protocol/WebSocket/Handshake/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+Compilation failed in require at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+Compilation failed in require at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Protocol/WebSocket/Handshake/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+Compilation failed in require at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+Compilation failed in require at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Protocol/WebSocket/Handshake/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+Compilation failed in require at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+Compilation failed in require at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Protocol/WebSocket/Handshake/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+Compilation failed in require at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+Compilation failed in require at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Protocol/WebSocket/Handshake/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+Compilation failed in require at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+Compilation failed in require at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Protocol/WebSocket/Handshake/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+Compilation failed in require at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+Compilation failed in require at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Protocol/WebSocket/Handshake/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+Compilation failed in require at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+Compilation failed in require at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Protocol/WebSocket/Handshake/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+Compilation failed in require at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+Compilation failed in require at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Protocol/WebSocket/Handshake/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+Compilation failed in require at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+Compilation failed in require at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Protocol/WebSocket/Handshake/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+Compilation failed in require at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+Compilation failed in require at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Protocol/WebSocket/Handshake/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+Compilation failed in require at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+Compilation failed in require at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Protocol/WebSocket/Handshake/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+Compilation failed in require at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+Compilation failed in require at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Protocol/WebSocket/Handshake/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+Compilation failed in require at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+Compilation failed in require at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Protocol/WebSocket/Handshake/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+Compilation failed in require at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+Compilation failed in require at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Protocol/WebSocket/Handshake/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+Compilation failed in require at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+Compilation failed in require at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Can't locate Protocol/WebSocket/Handshake/Server.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server/Connection.pm line 8.
+Compilation failed in require at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+BEGIN failed--compilation aborted at /usr/local/share/perl5/Net/WebSocket/Server.pm line 10.
+Compilation failed in require at /app/sip-tester/perl-websocket.pl line 6.
+BEGIN failed--compilation aborted at /app/sip-tester/perl-websocket.pl line 6.
+Local IP: 172.17.0.2
+Command: sudo ./sipp_test_launcher.pl 1 0 172.17.0.2 50001 scenarios/successfull-call-answered-by-user-agent-freeswitch.xml 40311851 +33600010001 password staging.voip.lifeisbetteron.com staging.voip.lifeisbetteron.com +33186260617 +33186260617 1 537eb0b2-22ac-11e6-8371-de85f3da07bb 2>&1 |
+[Wed May 25 19:10:21 2016] perl-websocket.pl: Use of uninitialized value $log_file in -e at /app/sip-tester/perl-websocket.pl line 99, <TEST> line 1.
+[Wed May 25 19:10:21 2016] perl-websocket.pl: Use of uninitialized value $error_file in concatenation (.) or string at /app/sip-tester/perl-websocket.pl line 120, <TEST> line 1.
+Local IP: 172.17.0.2
+Command: sudo /app/sip-tester/sipp_test_launcher.pl 1 0 172.17.0.2 50001 scenarios/successfullcall.xml 40311851 +33600010001 password staging.voip.lifeisbetteron.com staging.voip.lifeisbetteron.com +33186260617 +33186260617 1 c8c13e8e-22ad-11e6-80e5-cc50235254e9 2>&1 |
+[Wed May 25 19:20:47 2016] perl-websocket.pl: Use of uninitialized value $log_file in -e at /app/sip-tester/perl-websocket.pl line 103, <TEST> line 1.
+[Wed May 25 19:20:47 2016] perl-websocket.pl: Use of uninitialized value $error_file in concatenation (.) or string at /app/sip-tester/perl-websocket.pl line 124, <TEST> line 1.
+Local IP: 172.17.0.2
+Command: sudo /app/sip-tester/sipp_test_launcher.pl 1 0 172.17.0.2 50001 scenarios/successfullcall.xml 40311851 +33600010001 password staging.voip.lifeisbetteron.com staging.voip.lifeisbetteron.com +33186260617 +33186260617 1 328024de-22ae-11e6-81f1-cdc5fafd2c93 2>&1 |
+CSV: sipp  -skip_rlimit  staging.voip.lifeisbetteron.com -t tn -i 172.17.0.2 -inf /app/sip-tester/configs/_testuuid_328024de-22ae-11e6-81f1-cdc5fafd2c93_inject.csv -r 1 -sf /app/sip-tester/scenarios/successfullcall.xml -l 1 -m 1 -trace_logs -log_file /app/sip-tester/logfiles/_testuuid_328024de-22ae-11e6-81f1-cdc5fafd2c93.log -trace_err -error_file /app/sip-tester/logfiles/_testuuid_328024de-22ae-11e6-81f1-cdc5fafd2c93_error.log -trace_stat -stf /app/sip-tester/logfiles/_testuuid_328024de-22ae-11e6-81f1-cdc5fafd2c93_stats.log -trace_shortmsg -shortmessage_file /app/sip-tester/logfiles/_testuuid_328024de-22ae-11e6-81f1-cdc5fafd2c93_shortmsg.csv -trace_msg -message_file /app/sip-tester/logfiles/_testuuid_328024de-22ae-11e6-81f1-cdc5fafd2c93_trace_msg.log
+
+CSV FILE: /app/sip-tester/configs/_testuuid_328024de-22ae-11e6-81f1-cdc5fafd2c93_inject.csv
