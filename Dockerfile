@@ -38,7 +38,7 @@ RUN yum install epel-release && yum install -y gcc make bison flex libcurl libcu
     yum groupinstall "Development Tools" -y && \
     yum install -y ngrep.x86_64 perl-Data-UUID.x86_64 perl-CGI.noarch perl-NetAddr-IP.x86_64 \
       		         perl-TimeDate.noarch perl-DBI.x86_64 openssl-devel.x86_64 libpcap-devel.x86_64 \
-		               ncurses-devel.x86_64 nano.x86_64 wget.x86_64 cpan sipp.x86_64 ngrep.x86_64 tcpdump.x86_64 wireshark.x86_64 && \
+		               ncurses-devel.x86_64 nano.x86_64 wget.x86_64 cpan sipp.x86_64 ngrep.x86_64 tcpdump.x86_64 && \
     yum clean all
 
 # Perl modules that need forcing
