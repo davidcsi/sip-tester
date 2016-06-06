@@ -52,6 +52,6 @@
  <recv response="200" >
  </recv>
     
-<pause milliseconds="2000"/>
+<pause milliseconds="120000"/>
     
 </scenario>

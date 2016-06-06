@@ -1,0 +1,336 @@
+.top-menu span, .top-menu a {
+    color: rgba(255,255,255, .8);
+    border: rgba(255,255,255, .2) solid 1px;
+    border-width: 0 1px;
+    border-right-color: rgba(0,0,0, .2);
+}
+
+h3 {
+    margin-top: 25px;
+}
+
+.prettyprint ~ hr {
+    margin-top: 35px;
+}
+
+hr ~ h2 {
+    padding-top: 8px;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .top-menu a {
+        display: none !important;
+    }
+
+    #download-link {
+        display: block !important;
+        border: none;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .search-wrapper {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    h1, h2 {
+        padding-top: 5px !important;
+        font-size: 39px !important;
+        line-height: 90% !important;
+        padding-bottom: 5px !important;
+    }
+
+    .well.no-bg img {
+        margin-top: 21px !important;
+        margin-right: -9px;
+    }
+}
+
+#download-info {
+    display: none;
+    overflow: hidden;
+    clear:both;
+    padding-bottom: 15px;
+}
+
+#download-info a {
+    color: #FFF;
+    text-decoration: underline;
+}
+
+#download-info a:hover {
+    text-decoration: none;
+}
+
+#download-info .inner {
+    border:4px double #FFF;
+    padding: 4px 18px 8px;
+    margin-top: 18px;
+}
+
+#download-info p,
+#download-info li {
+    color: #FFF;
+}
+
+#download-info p {
+    padding-top: 0;
+    padding-bottom: 8px;
+}
+
+#download-info p strong {
+    display: inline-block;
+    padding: 3px 5px;
+    background: rgba(255,255,255, .1);
+    margin-top: 5px;
+    color: #b9e5f3;
+}
+
+#download-info p strong span {
+    color: #FFF;
+}
+
+#download-info h3 {
+    padding-top: 0;
+    color: #FFF;
+}
+
+/* ads... */
+#ad-wrapper {
+    margin: 12px 0;
+    border: 2px solid #4185ad;
+    padding: 14px;
+    border-radius: 3px;
+    background-color: #fbfbfb;
+}
+
+.carbonad {
+    display: block;
+    overflow: hidden;
+    line-height: 1.4;
+}
+.carbonad img {
+    display: block;
+    margin:  auto;
+    width: 130px;
+    height: 100px;
+}
+
+.carbon-text {
+    display: block;
+    margin-top: 10px;
+    width: 180px;
+    font-weight: 400;
+    font-size: 12px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #0f83b0;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.carbon-poweredby {
+    display: block;
+    margin-top: 8px;
+    color: #999;
+    font-weight: 400;
+    font-size: 11px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+
+/* home */
+
+h1.front-page {
+    font-size: 56px;
+    padding-top: 16px;
+    padding-bottom: 20px;
+}
+
+p.intro-txt {
+    max-width: 675px;
+}
+
+#home img.jquery-logo {
+    float: right;
+    width: 220px;
+    margin: 12px 22px 12px 22px;
+}
+
+.well.no-bg {
+    background: none;
+    box-shadow: none;
+    padding: 12px 20px;
+    overflow: auto;
+}
+
+    .well.no-bg h2 {
+        padding-top: 0;
+        font-size: 25px;
+        line-height: normal;
+    }
+
+    .well.no-bg img {
+        float: right;
+        margin-top: -27px;
+    }
+
+.lunr-search-btn {
+    cursor: pointer;
+}
+
+/* Form validator */
+
+.form-suggest-element {
+    padding: 4px;
+}
+
+.max-chars {
+    background: #EEE;
+    color: #999;
+}
+
+.form-help {
+    padding-left: 6px;
+}
+
+/* Credits */
+
+#credits h3 {
+    margin-top: 32px;
+}
+
+a.profile {
+    display: block;
+    font-weight: bold;
+}
+
+#contribs {
+    overflow: auto;
+}
+
+    #contribs a.profile {
+        float: left;
+        width: 30%;
+        padding: 10px 3% 10px 0;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    @media screen and (max-width: 800px) {
+        #contribs a.profile {
+            float: none;
+            padding: 10px 0;
+            width: auto;
+        }
+    }
+
+img.profile-pic {
+    border-radius: 100px;
+    width: 60px;
+    margin-right: 8px;
+}
+
+
+/* code highlighting */
+
+.com { color: #93a1a1; }
+.lit { color: #195f91; }
+.pun, .opn, .clo { color: #93a1a1; }
+.fun { color: #dc322f; }
+.str, .atv { color: #D14; }
+.kwd, .prettyprint .tag { color: #1e347b; }
+.typ, .atn, .dec, .var { color: teal; }
+.pln { color: #48484c; }
+
+.prettyprint {
+    font-size: 11px;
+    padding: 8px;
+    background-color: #f7f7f9;
+    border: 1px solid #e1e1e8;
+    margin-top: 15px;
+}
+.prettyprint.linenums {
+    -webkit-box-shadow: inset 40px 0 0 #fbfbfc, inset 41px 0 0 #ececf0;
+    -moz-box-shadow: inset 40px 0 0 #fbfbfc, inset 41px 0 0 #ececf0;
+    box-shadow: inset 40px 0 0 #fbfbfc, inset 41px 0 0 #ececf0;
+}
+
+/* Specify class=linenums on a pre to get line numbering */
+ol.linenums {
+    margin: 0 0 0 33px; /* IE indents via margin-left */
+}
+ol.linenums li {
+    padding-left: 12px;
+    color: #bebec5;
+    line-height: 20px;
+    text-shadow: 0 1px 0 #fff;
+}
+
+.convert-code {
+    display: none;
+}
+
+.pre-title {
+    padding-top: 6px;
+    margin-bottom: -4px;
+    color: #888;
+}
+
+			    .redrow
+			    {
+			        font-family:Consolas; font-size:12pt; color:white; background-color:#FFACAC; text-align: left;
+			    }
+			    .boldtable, .boldtable TD
+				{ 
+					font-family:Consolas; font-size:12pt; color:black; background-color:#AFFFAC; text-align: left;
+				}
+			
+			    .reporttable, .boldtable TD
+				{ 
+					font-family:Consolas; font-size:12pt; color:black; background-color:#33C1FF; text-align: center;
+				}
+			
+				th
+				{
+					font-family:Consolas; font-size:12pt; color:white; background-color:Gray; text-align: center;
+				}
+			
+				
+				.loading { margin: auto; }
+			
+				.loading span {
+					line-height: 32px;
+					margin-left: 12px;
+					font-size: 16px;
+					vertical-align: middle;
+				}
+			
+				.loading img { vertical-align: middle; }
+				.loading_wrp {
+					background-color: #FFF;
+					display: block;
+					height: 100%;
+					left: 0;
+					opacity: 0.5;
+					filter: alpha(opacity=50);
+					position: absolute;
+					top: 0;
+					width: 100%;
+					z-index: 1020;
+				}
+			
+				.loading_wrp .x16 span {
+					line-height: 16px;
+					font-size: 12px;
+					margin-left: 6px;
+				}
+				
+				.loading_wrp .x32 img {
+					width: 32px;
+					height: 32px;
+				}

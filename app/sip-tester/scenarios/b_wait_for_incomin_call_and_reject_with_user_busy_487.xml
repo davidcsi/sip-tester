@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="ISO-8859-2" ?>
+
+<!--  Use with CSV file struct like: 3000;192.168.1.106;[authentication username=3000 password=3000];
+      (user part of uri, server address, auth tag in each line)
+-->
+
+<scenario name="wait_for_incoming_call">
+
+ <!-- Wait for a call -->
+
+  <recv request="INVITE" rrs="true">
+
+  </recv>
+
+  <send>
+    <![CDATA[
+      SIP/2.0 180 Ringing
+      [last_Via:]
+      [last_Record-Route:]
+      [last_From:]
+      [last_To:];tag=[pid]SIPpTag01[call_number]
+      [last_Call-ID:]
+      [last_CSeq:]
+      Contact: sip:[service]@[local_ip]:[local_port]
+      Content-Length: 0
+    ]]>
+  </send>
+
+  <pause milliseconds="1000"/>
+  
+  <send retrans="500">
+    <![CDATA[
+      SIP/2.0 486 OK
+      [last_Via:]
+      [last_Record-Route:]
+      [last_From:]
+      [last_To:];tag=[pid]SIPpTag01[call_number]
+      Contact: <sip:[local_ip]:[local_port];transport=[transport]>
+      [last_Call-ID:]
+      [last_CSeq:]
+      Content-Length: 0
+    ]]>
+  </send>
+
+  <recv request="ACK"/>
+
+  <timewait milliseconds="2000"/><!-- retransmit 200's for a while -->
+
+
+</scenario>

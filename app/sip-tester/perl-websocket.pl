@@ -25,6 +25,9 @@ Net::WebSocket::Server->new(
 			},
 			utf8 => sub {
 				my ($conn, $msg) = @_;
+				
+				# This is the A-side launching
+				print "vardump: " . Dumper($msg) . "\n";
 
 				my ($user, $user_msisdn, $user_password, $scenario, $domain, $req_domain, $dest_number) = map {substr($_,index($_,"=")+1,length $_)} split(",", $msg);
 				my $screen = "";
