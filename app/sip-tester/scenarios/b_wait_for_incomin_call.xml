@@ -64,7 +64,8 @@
   <!-- Send some audio to avoid rtptimeout timers kicking in. -->
   <nop>
     <action>
-      <exec play_pcap_audio="10_0_0_148_61942.pcap"/>
+      <!-- <exec play_pcap_audio="10_0_0_148_61942.pcap"/> -->
+      <exec play_pcap_audio="chopin_new.pcap"/>
     </action>
   </nop>
 

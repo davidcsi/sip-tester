@@ -38,7 +38,7 @@ docker run -it -p 8888:80 -p 65000:65000 -v $PWD/app:/app YOURUSER/sip-tester
 ``` 
 
 when it's up and running, you need to connect to it via http, open your browser to:
-`http://docker-host-ip:8888/app`
+`http://docker-host-ip:8888/sip-tester`
 
 The main page is a php script gathering necessary information, such as:
 

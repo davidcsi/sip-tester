@@ -53,8 +53,7 @@ my $test_uuid = shift;
 my $oocsf = shift;
 
 
-print "
-ip: $local_ip
+print "ip: $local_ip
 port: $local_port
 scenario: $scenario
 username: $username

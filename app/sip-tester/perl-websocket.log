@@ -478,3 +478,485 @@ Command: sudo /app/sip-tester/sipp_test_launcher.pl 1 0 172.17.0.2 50001 scenari
 CSV: sipp  -skip_rlimit  staging.voip.lifeisbetteron.com -t tn -i 172.17.0.2 -inf /app/sip-tester/configs/_testuuid_f3cce763-2667-11e6-8161-877212fb137c_inject.csv -r 1 -sf /app/sip-tester/scenarios/successfullcall.xml -l 1 -m 1 -trace_logs -log_file /app/sip-tester/logfiles/_testuuid_f3cce763-2667-11e6-8161-877212fb137c.log -trace_err -error_file /app/sip-tester/logfiles/_testuuid_f3cce763-2667-11e6-8161-877212fb137c_error.log -trace_stat -stf /app/sip-tester/logfiles/_testuuid_f3cce763-2667-11e6-8161-877212fb137c_stats.log -trace_shortmsg -shortmessage_file /app/sip-tester/logfiles/_testuuid_f3cce763-2667-11e6-8161-877212fb137c_shortmsg.csv -trace_msg -message_file /app/sip-tester/logfiles/_testuuid_f3cce763-2667-11e6-8161-877212fb137c_trace_msg.log
 
 CSV FILE: /app/sip-tester/configs/_testuuid_f3cce763-2667-11e6-8161-877212fb137c_inject.csv
+Local IP: 172.17.0.2
+vardump: $VAR1 = 'user=2932551,user_msisdn=+33600010001,user_password=password,scenario=register.xml,domain=qap.voip.lifeisbetteron.com,req_domain=qap.voip.lifeisbetteron.com,dest_libon_id=+33186260618';
+
+Command: sudo /app/sip-tester/sipp_test_launcher.pl 1 0 172.17.0.2 50001 scenarios/register.xml 2932551 +33600010001 password qap.voip.lifeisbetteron.com qap.voip.lifeisbetteron.com +33186260618 +33186260618 1 1e427b24-3182-11e6-8208-dcc14bf7bece 2>&1 |
+CSV: sipp  -skip_rlimit  qap.voip.lifeisbetteron.com -t tn -i 172.17.0.2 -inf /app/sip-tester/configs/_testuuid_1e427b24-3182-11e6-8208-dcc14bf7bece_inject.csv -r 1 -sf /app/sip-tester/scenarios/register.xml -l 1 -m 1 -trace_logs -log_file /app/sip-tester/logfiles/_testuuid_1e427b24-3182-11e6-8208-dcc14bf7bece.log -trace_err -error_file /app/sip-tester/logfiles/_testuuid_1e427b24-3182-11e6-8208-dcc14bf7bece_error.log -trace_stat -stf /app/sip-tester/logfiles/_testuuid_1e427b24-3182-11e6-8208-dcc14bf7bece_stats.log -trace_shortmsg -shortmessage_file /app/sip-tester/logfiles/_testuuid_1e427b24-3182-11e6-8208-dcc14bf7bece_shortmsg.csv -trace_msg -message_file /app/sip-tester/logfiles/_testuuid_1e427b24-3182-11e6-8208-dcc14bf7bece_trace_msg.log
+
+CSV FILE: /app/sip-tester/configs/_testuuid_1e427b24-3182-11e6-8208-dcc14bf7bece_inject.csv
+vardump: $VAR1 = 'user=2932551,user_msisdn=+33600010001,user_password=password,scenario=reject.xml,domain=qap.voip.lifeisbetteron.com,req_domain=qap.voip.lifeisbetteron.com,dest_libon_id=+33186260618';
+
+Command: sudo /app/sip-tester/sipp_test_launcher.pl 1 0 172.17.0.2 50001 scenarios/reject.xml 2932551 +33600010001 password qap.voip.lifeisbetteron.com qap.voip.lifeisbetteron.com +33186260618 +33186260618 1 26ee0eda-3182-11e6-82ff-dcc14bf7bece 2>&1 |
+CSV: sipp  -skip_rlimit  qap.voip.lifeisbetteron.com -t tn -i 172.17.0.2 -inf /app/sip-tester/configs/_testuuid_26ee0eda-3182-11e6-82ff-dcc14bf7bece_inject.csv -r 1 -sf /app/sip-tester/scenarios/reject.xml -l 1 -m 1 -trace_logs -log_file /app/sip-tester/logfiles/_testuuid_26ee0eda-3182-11e6-82ff-dcc14bf7bece.log -trace_err -error_file /app/sip-tester/logfiles/_testuuid_26ee0eda-3182-11e6-82ff-dcc14bf7bece_error.log -trace_stat -stf /app/sip-tester/logfiles/_testuuid_26ee0eda-3182-11e6-82ff-dcc14bf7bece_stats.log -trace_shortmsg -shortmessage_file /app/sip-tester/logfiles/_testuuid_26ee0eda-3182-11e6-82ff-dcc14bf7bece_shortmsg.csv -trace_msg -message_file /app/sip-tester/logfiles/_testuuid_26ee0eda-3182-11e6-82ff-dcc14bf7bece_trace_msg.log
+
+CSV FILE: /app/sip-tester/configs/_testuuid_26ee0eda-3182-11e6-82ff-dcc14bf7bece_inject.csv
+vardump: $VAR1 = 'user=2932551,user_msisdn=+33600010001,user_password=password,scenario=reject.xml,domain=qap.voip.lifeisbetteron.com,req_domain=qap.voip.lifeisbetteron.com,dest_libon_id=2665951';
+
+Command: sudo /app/sip-tester/sipp_test_launcher.pl 1 0 172.17.0.2 50001 scenarios/reject.xml 2932551 +33600010001 password qap.voip.lifeisbetteron.com qap.voip.lifeisbetteron.com 2665951 2665951 1 46f4604e-3182-11e6-8284-dcc14bf7bece 2>&1 |
+CSV: sipp  -skip_rlimit  qap.voip.lifeisbetteron.com -t tn -i 172.17.0.2 -inf /app/sip-tester/configs/_testuuid_46f4604e-3182-11e6-8284-dcc14bf7bece_inject.csv -r 1 -sf /app/sip-tester/scenarios/reject.xml -l 1 -m 1 -trace_logs -log_file /app/sip-tester/logfiles/_testuuid_46f4604e-3182-11e6-8284-dcc14bf7bece.log -trace_err -error_file /app/sip-tester/logfiles/_testuuid_46f4604e-3182-11e6-8284-dcc14bf7bece_error.log -trace_stat -stf /app/sip-tester/logfiles/_testuuid_46f4604e-3182-11e6-8284-dcc14bf7bece_stats.log -trace_shortmsg -shortmessage_file /app/sip-tester/logfiles/_testuuid_46f4604e-3182-11e6-8284-dcc14bf7bece_shortmsg.csv -trace_msg -message_file /app/sip-tester/logfiles/_testuuid_46f4604e-3182-11e6-8284-dcc14bf7bece_trace_msg.log
+
+CSV FILE: /app/sip-tester/configs/_testuuid_46f4604e-3182-11e6-8284-dcc14bf7bece_inject.csv
+vardump: $VAR1 = 'user=2932551,user_msisdn=+33600010001,user_password=password,scenario=reject.xml,domain=qap.voip.lifeisbetteron.com,req_domain=qap.voip.lifeisbetteron.com,dest_libon_id=2665951';
+
+Command: sudo /app/sip-tester/sipp_test_launcher.pl 1 0 172.17.0.2 50001 scenarios/reject.xml 2932551 +33600010001 password qap.voip.lifeisbetteron.com qap.voip.lifeisbetteron.com 2665951 2665951 1 f350c455-31a0-11e6-822b-dcc14bf7bece 2>&1 |
+CSV: sipp  -skip_rlimit  qap.voip.lifeisbetteron.com -t tn -i 172.17.0.2 -inf /app/sip-tester/configs/_testuuid_f350c455-31a0-11e6-822b-dcc14bf7bece_inject.csv -r 1 -sf /app/sip-tester/scenarios/reject.xml -l 1 -m 1 -trace_logs -log_file /app/sip-tester/logfiles/_testuuid_f350c455-31a0-11e6-822b-dcc14bf7bece.log -trace_err -error_file /app/sip-tester/logfiles/_testuuid_f350c455-31a0-11e6-822b-dcc14bf7bece_error.log -trace_stat -stf /app/sip-tester/logfiles/_testuuid_f350c455-31a0-11e6-822b-dcc14bf7bece_stats.log -trace_shortmsg -shortmessage_file /app/sip-tester/logfiles/_testuuid_f350c455-31a0-11e6-822b-dcc14bf7bece_shortmsg.csv -trace_msg -message_file /app/sip-tester/logfiles/_testuuid_f350c455-31a0-11e6-822b-dcc14bf7bece_trace_msg.log
+
+CSV FILE: /app/sip-tester/configs/_testuuid_f350c455-31a0-11e6-822b-dcc14bf7bece_inject.csv
+vardump: $VAR1 = 'user=2932551,user_msisdn=+33600010001,user_password=password,scenario=reject.xml,domain=qap.voip.lifeisbetteron.com,req_domain=qap.voip.lifeisbetteron.com,dest_libon_id=2665951';
+
+Command: sudo /app/sip-tester/sipp_test_launcher.pl 1 0 172.17.0.2 50001 scenarios/reject.xml 2932551 +33600010001 password qap.voip.lifeisbetteron.com qap.voip.lifeisbetteron.com 2665951 2665951 1 55fefa6e-31a1-11e6-8209-dcc14bf7bece 2>&1 |
+CSV: sipp  -skip_rlimit  qap.voip.lifeisbetteron.com -t tn -i 172.17.0.2 -inf /app/sip-tester/configs/_testuuid_55fefa6e-31a1-11e6-8209-dcc14bf7bece_inject.csv -r 1 -sf /app/sip-tester/scenarios/reject.xml -l 1 -m 1 -trace_logs -log_file /app/sip-tester/logfiles/_testuuid_55fefa6e-31a1-11e6-8209-dcc14bf7bece.log -trace_err -error_file /app/sip-tester/logfiles/_testuuid_55fefa6e-31a1-11e6-8209-dcc14bf7bece_error.log -trace_stat -stf /app/sip-tester/logfiles/_testuuid_55fefa6e-31a1-11e6-8209-dcc14bf7bece_stats.log -trace_shortmsg -shortmessage_file /app/sip-tester/logfiles/_testuuid_55fefa6e-31a1-11e6-8209-dcc14bf7bece_shortmsg.csv -trace_msg -message_file /app/sip-tester/logfiles/_testuuid_55fefa6e-31a1-11e6-8209-dcc14bf7bece_trace_msg.log
+
+CSV FILE: /app/sip-tester/configs/_testuuid_55fefa6e-31a1-11e6-8209-dcc14bf7bece_inject.csv
+vardump: $VAR1 = 'user=2932551,user_msisdn=+33600010001,user_password=password,scenario=reject.xml,domain=qap.voip.lifeisbetteron.com,req_domain=qap.voip.lifeisbetteron.com,dest_libon_id=2665951';
+
+Command: sudo /app/sip-tester/sipp_test_launcher.pl 1 0 172.17.0.2 50001 scenarios/reject.xml 2932551 +33600010001 password qap.voip.lifeisbetteron.com qap.voip.lifeisbetteron.com 2665951 2665951 1 8250250d-31a1-11e6-823a-dcc14bf7bece 2>&1 |
+CSV: sipp  -skip_rlimit  qap.voip.lifeisbetteron.com -t tn -i 172.17.0.2 -inf /app/sip-tester/configs/_testuuid_8250250d-31a1-11e6-823a-dcc14bf7bece_inject.csv -r 1 -sf /app/sip-tester/scenarios/reject.xml -l 1 -m 1 -trace_logs -log_file /app/sip-tester/logfiles/_testuuid_8250250d-31a1-11e6-823a-dcc14bf7bece.log -trace_err -error_file /app/sip-tester/logfiles/_testuuid_8250250d-31a1-11e6-823a-dcc14bf7bece_error.log -trace_stat -stf /app/sip-tester/logfiles/_testuuid_8250250d-31a1-11e6-823a-dcc14bf7bece_stats.log -trace_shortmsg -shortmessage_file /app/sip-tester/logfiles/_testuuid_8250250d-31a1-11e6-823a-dcc14bf7bece_shortmsg.csv -trace_msg -message_file /app/sip-tester/logfiles/_testuuid_8250250d-31a1-11e6-823a-dcc14bf7bece_trace_msg.log
+
+CSV FILE: /app/sip-tester/configs/_testuuid_8250250d-31a1-11e6-823a-dcc14bf7bece_inject.csv
+vardump: $VAR1 = 'user=2932551,user_msisdn=+33600010001,user_password=password,scenario=reject.xml,domain=qap.voip.lifeisbetteron.com,req_domain=qap.voip.lifeisbetteron.com,dest_libon_id=2665951';
+
+Command: sudo /app/sip-tester/sipp_test_launcher.pl 1 0 172.17.0.2 50001 scenarios/reject.xml 2932551 +33600010001 password qap.voip.lifeisbetteron.com qap.voip.lifeisbetteron.com 2665951 2665951 1 bf6d6fb1-31a1-11e6-81ff-dcc14bf7bece 2>&1 |
+CSV: sipp  -skip_rlimit  qap.voip.lifeisbetteron.com -t tn -i 172.17.0.2 -inf /app/sip-tester/configs/_testuuid_bf6d6fb1-31a1-11e6-81ff-dcc14bf7bece_inject.csv -r 1 -sf /app/sip-tester/scenarios/reject.xml -l 1 -m 1 -trace_logs -log_file /app/sip-tester/logfiles/_testuuid_bf6d6fb1-31a1-11e6-81ff-dcc14bf7bece.log -trace_err -error_file /app/sip-tester/logfiles/_testuuid_bf6d6fb1-31a1-11e6-81ff-dcc14bf7bece_error.log -trace_stat -stf /app/sip-tester/logfiles/_testuuid_bf6d6fb1-31a1-11e6-81ff-dcc14bf7bece_stats.log -trace_shortmsg -shortmessage_file /app/sip-tester/logfiles/_testuuid_bf6d6fb1-31a1-11e6-81ff-dcc14bf7bece_shortmsg.csv -trace_msg -message_file /app/sip-tester/logfiles/_testuuid_bf6d6fb1-31a1-11e6-81ff-dcc14bf7bece_trace_msg.log
+
+CSV FILE: /app/sip-tester/configs/_testuuid_bf6d6fb1-31a1-11e6-81ff-dcc14bf7bece_inject.csv
+vardump: $VAR1 = 'user=68403551,user_msisdn=+33600010001,user_password=password,scenario=reject.xml,domain=preprod.voip.lifeisbetteron.com,req_domain=preprod.voip.lifeisbetteron.com,dest_libon_id=68403551';
+
+Command: sudo /app/sip-tester/sipp_test_launcher.pl 1 0 172.17.0.2 50001 scenarios/reject.xml 68403551 +33600010001 password preprod.voip.lifeisbetteron.com preprod.voip.lifeisbetteron.com 68403551 68403551 1 430af787-31a2-11e6-8242-dcc14bf7bece 2>&1 |
+CSV: sipp  -skip_rlimit  preprod.voip.lifeisbetteron.com -t tn -i 172.17.0.2 -inf /app/sip-tester/configs/_testuuid_430af787-31a2-11e6-8242-dcc14bf7bece_inject.csv -r 1 -sf /app/sip-tester/scenarios/reject.xml -l 1 -m 1 -trace_logs -log_file /app/sip-tester/logfiles/_testuuid_430af787-31a2-11e6-8242-dcc14bf7bece.log -trace_err -error_file /app/sip-tester/logfiles/_testuuid_430af787-31a2-11e6-8242-dcc14bf7bece_error.log -trace_stat -stf /app/sip-tester/logfiles/_testuuid_430af787-31a2-11e6-8242-dcc14bf7bece_stats.log -trace_shortmsg -shortmessage_file /app/sip-tester/logfiles/_testuuid_430af787-31a2-11e6-8242-dcc14bf7bece_shortmsg.csv -trace_msg -message_file /app/sip-tester/logfiles/_testuuid_430af787-31a2-11e6-8242-dcc14bf7bece_trace_msg.log
+
+CSV FILE: /app/sip-tester/configs/_testuuid_430af787-31a2-11e6-8242-dcc14bf7bece_inject.csv
+vardump: $VAR1 = 'user=68403551,user_msisdn=+33600010001,user_password=password,scenario=reject.xml,domain=preprod.voip.lifeisbetteron.com,req_domain=preprod.voip.lifeisbetteron.com,dest_libon_id=68403551';
+
+Command: sudo /app/sip-tester/sipp_test_launcher.pl 1 0 172.17.0.2 50001 scenarios/reject.xml 68403551 +33600010001 password preprod.voip.lifeisbetteron.com preprod.voip.lifeisbetteron.com 68403551 68403551 1 f1b76611-3219-11e6-82db-dcc14bf7bece 2>&1 |
+CSV: sipp  -skip_rlimit  preprod.voip.lifeisbetteron.com -t tn -i 172.17.0.2 -inf /app/sip-tester/configs/_testuuid_f1b76611-3219-11e6-82db-dcc14bf7bece_inject.csv -r 1 -sf /app/sip-tester/scenarios/reject.xml -l 1 -m 1 -trace_logs -log_file /app/sip-tester/logfiles/_testuuid_f1b76611-3219-11e6-82db-dcc14bf7bece.log -trace_err -error_file /app/sip-tester/logfiles/_testuuid_f1b76611-3219-11e6-82db-dcc14bf7bece_error.log -trace_stat -stf /app/sip-tester/logfiles/_testuuid_f1b76611-3219-11e6-82db-dcc14bf7bece_stats.log -trace_shortmsg -shortmessage_file /app/sip-tester/logfiles/_testuuid_f1b76611-3219-11e6-82db-dcc14bf7bece_shortmsg.csv -trace_msg -message_file /app/sip-tester/logfiles/_testuuid_f1b76611-3219-11e6-82db-dcc14bf7bece_trace_msg.log
+
+CSV FILE: /app/sip-tester/configs/_testuuid_f1b76611-3219-11e6-82db-dcc14bf7bece_inject.csv
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 44.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 45.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 71.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 97.
+Execution of /app/sip-tester/perl-websocket.pl aborted due to compilation errors.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 44.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 45.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 71.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 97.
+Execution of /app/sip-tester/perl-websocket.pl aborted due to compilation errors.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 44.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 45.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 71.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 97.
+Execution of /app/sip-tester/perl-websocket.pl aborted due to compilation errors.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 44.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 45.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 71.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 97.
+Execution of /app/sip-tester/perl-websocket.pl aborted due to compilation errors.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 44.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 45.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 71.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 97.
+Execution of /app/sip-tester/perl-websocket.pl aborted due to compilation errors.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 44.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 45.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 71.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 97.
+Execution of /app/sip-tester/perl-websocket.pl aborted due to compilation errors.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 44.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 45.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 71.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 97.
+Execution of /app/sip-tester/perl-websocket.pl aborted due to compilation errors.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 44.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 45.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 71.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 97.
+Execution of /app/sip-tester/perl-websocket.pl aborted due to compilation errors.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 44.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 45.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 71.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 97.
+Execution of /app/sip-tester/perl-websocket.pl aborted due to compilation errors.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 44.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 45.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 71.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 97.
+Execution of /app/sip-tester/perl-websocket.pl aborted due to compilation errors.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 44.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 45.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 71.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 97.
+Execution of /app/sip-tester/perl-websocket.pl aborted due to compilation errors.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 44.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 45.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 71.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 97.
+Execution of /app/sip-tester/perl-websocket.pl aborted due to compilation errors.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 44.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 45.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 71.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 97.
+Execution of /app/sip-tester/perl-websocket.pl aborted due to compilation errors.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 44.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 45.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 71.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 97.
+Execution of /app/sip-tester/perl-websocket.pl aborted due to compilation errors.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 44.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 45.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 71.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 97.
+Execution of /app/sip-tester/perl-websocket.pl aborted due to compilation errors.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 44.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 45.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 71.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 97.
+Execution of /app/sip-tester/perl-websocket.pl aborted due to compilation errors.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 44.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 45.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 71.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 97.
+Execution of /app/sip-tester/perl-websocket.pl aborted due to compilation errors.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 44.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 45.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 71.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 97.
+Execution of /app/sip-tester/perl-websocket.pl aborted due to compilation errors.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 44.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 45.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 71.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 97.
+Execution of /app/sip-tester/perl-websocket.pl aborted due to compilation errors.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 44.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 45.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 71.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 97.
+Execution of /app/sip-tester/perl-websocket.pl aborted due to compilation errors.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 44.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 45.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 71.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 97.
+Execution of /app/sip-tester/perl-websocket.pl aborted due to compilation errors.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 44.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 45.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 71.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 97.
+Execution of /app/sip-tester/perl-websocket.pl aborted due to compilation errors.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 44.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 45.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 71.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 97.
+Execution of /app/sip-tester/perl-websocket.pl aborted due to compilation errors.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 44.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 45.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 71.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 97.
+Execution of /app/sip-tester/perl-websocket.pl aborted due to compilation errors.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 44.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 45.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 71.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 97.
+Execution of /app/sip-tester/perl-websocket.pl aborted due to compilation errors.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 44.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 45.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 71.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 97.
+Execution of /app/sip-tester/perl-websocket.pl aborted due to compilation errors.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 44.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 45.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 71.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 97.
+Execution of /app/sip-tester/perl-websocket.pl aborted due to compilation errors.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 44.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 45.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 71.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 97.
+Execution of /app/sip-tester/perl-websocket.pl aborted due to compilation errors.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 44.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 45.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 71.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 97.
+Execution of /app/sip-tester/perl-websocket.pl aborted due to compilation errors.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 44.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 45.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 71.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 97.
+Execution of /app/sip-tester/perl-websocket.pl aborted due to compilation errors.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 44.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 45.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 71.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 97.
+Execution of /app/sip-tester/perl-websocket.pl aborted due to compilation errors.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 44.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 45.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 71.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 97.
+Execution of /app/sip-tester/perl-websocket.pl aborted due to compilation errors.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 44.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 45.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 71.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 97.
+Execution of /app/sip-tester/perl-websocket.pl aborted due to compilation errors.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 44.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 45.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 71.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 97.
+Execution of /app/sip-tester/perl-websocket.pl aborted due to compilation errors.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 44.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 45.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 71.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 97.
+Execution of /app/sip-tester/perl-websocket.pl aborted due to compilation errors.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 44.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 45.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 71.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 97.
+Execution of /app/sip-tester/perl-websocket.pl aborted due to compilation errors.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 44.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 45.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 71.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 97.
+Execution of /app/sip-tester/perl-websocket.pl aborted due to compilation errors.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 44.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 45.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 71.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 97.
+Execution of /app/sip-tester/perl-websocket.pl aborted due to compilation errors.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 44.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 45.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 71.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 97.
+Execution of /app/sip-tester/perl-websocket.pl aborted due to compilation errors.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 44.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 45.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 71.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 97.
+Execution of /app/sip-tester/perl-websocket.pl aborted due to compilation errors.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 44.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 45.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 71.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 97.
+Execution of /app/sip-tester/perl-websocket.pl aborted due to compilation errors.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 44.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 45.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 71.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 97.
+Execution of /app/sip-tester/perl-websocket.pl aborted due to compilation errors.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 44.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 45.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 71.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 97.
+Execution of /app/sip-tester/perl-websocket.pl aborted due to compilation errors.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 44.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 45.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 71.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 97.
+Execution of /app/sip-tester/perl-websocket.pl aborted due to compilation errors.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 44.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 45.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 71.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 97.
+Execution of /app/sip-tester/perl-websocket.pl aborted due to compilation errors.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 44.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 45.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 71.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 97.
+Execution of /app/sip-tester/perl-websocket.pl aborted due to compilation errors.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 44.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 45.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 71.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 97.
+Execution of /app/sip-tester/perl-websocket.pl aborted due to compilation errors.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 44.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 45.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 71.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 97.
+Execution of /app/sip-tester/perl-websocket.pl aborted due to compilation errors.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 44.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 45.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 71.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 97.
+Execution of /app/sip-tester/perl-websocket.pl aborted due to compilation errors.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 44.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 45.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 71.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 97.
+Execution of /app/sip-tester/perl-websocket.pl aborted due to compilation errors.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 44.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 45.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 71.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 97.
+Execution of /app/sip-tester/perl-websocket.pl aborted due to compilation errors.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 44.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 45.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 71.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 97.
+Execution of /app/sip-tester/perl-websocket.pl aborted due to compilation errors.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 44.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 45.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 71.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 97.
+Execution of /app/sip-tester/perl-websocket.pl aborted due to compilation errors.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 44.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 45.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 71.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 97.
+Execution of /app/sip-tester/perl-websocket.pl aborted due to compilation errors.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 44.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 45.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 71.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 97.
+Execution of /app/sip-tester/perl-websocket.pl aborted due to compilation errors.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 44.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 45.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 71.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 97.
+Execution of /app/sip-tester/perl-websocket.pl aborted due to compilation errors.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 44.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 45.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 71.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 97.
+Execution of /app/sip-tester/perl-websocket.pl aborted due to compilation errors.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 44.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 45.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 71.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 97.
+Execution of /app/sip-tester/perl-websocket.pl aborted due to compilation errors.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 44.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 45.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 71.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 97.
+Execution of /app/sip-tester/perl-websocket.pl aborted due to compilation errors.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 44.
+Global symbol "$command" requires explicit package name at /app/sip-tester/perl-websocket.pl line 45.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 70.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 71.
+Global symbol "$screen" requires explicit package name at /app/sip-tester/perl-websocket.pl line 97.
+Execution of /app/sip-tester/perl-websocket.pl aborted due to compilation errors.
+Local IP: 172.17.0.2
+vardump: $VAR1 = 'user=40311851,user_msisdn=+33600010001,user_password=password,scenario=reject.xml,domain=staging.voip.lifeisbetteron.com,req_domain=staging.voip.lifeisbetteron.com,dest_libon_id=+33186260617,b_user=12345,b_password=password,b_scenario=b_register.xml,b_domain_req=dom_req,b_domain_ip=dom_ip';
+
+Command: sudo /app/sip-tester/sipp_test_launcher.pl 1 0 172.17.0.2 50001 scenarios/reject.xml 40311851 +33600010001 password staging.voip.lifeisbetteron.com staging.voip.lifeisbetteron.com +33186260617 +33186260617 1 d04c188c-32e7-11e6-8267-9d4998044c61 2>&1 |
+CSV: sipp  -skip_rlimit  staging.voip.lifeisbetteron.com -t tn -i 172.17.0.2 -inf /app/sip-tester/configs/_testuuid_d04c188c-32e7-11e6-8267-9d4998044c61_inject.csv -r 1 -sf /app/sip-tester/scenarios/reject.xml -l 1 -m 1 -trace_logs -log_file /app/sip-tester/logfiles/_testuuid_d04c188c-32e7-11e6-8267-9d4998044c61.log -trace_err -error_file /app/sip-tester/logfiles/_testuuid_d04c188c-32e7-11e6-8267-9d4998044c61_error.log -trace_stat -stf /app/sip-tester/logfiles/_testuuid_d04c188c-32e7-11e6-8267-9d4998044c61_stats.log -trace_shortmsg -shortmessage_file /app/sip-tester/logfiles/_testuuid_d04c188c-32e7-11e6-8267-9d4998044c61_shortmsg.csv -trace_msg -message_file /app/sip-tester/logfiles/_testuuid_d04c188c-32e7-11e6-8267-9d4998044c61_trace_msg.log
+
+CSV FILE: /app/sip-tester/configs/_testuuid_d04c188c-32e7-11e6-8267-9d4998044c61_inject.csv

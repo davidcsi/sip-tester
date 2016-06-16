@@ -28,19 +28,63 @@ Net::WebSocket::Server->new(
 				
 				# This is the A-side launching
 				print "vardump: " . Dumper($msg) . "\n";
-
-				my ($user, $user_msisdn, $user_password, $scenario, $domain, $req_domain, $dest_number) = map {substr($_,index($_,"=")+1,length $_)} split(",", $msg);
+				
+				my $command = "";
 				my $screen = "";
-				my $uuid = generate_uuid();
-				my $command = "sudo $scriptdir/sipp_test_launcher.pl 1 0 $local_ip 50001 scenarios/$scenario $user $user_msisdn $user_password $domain $req_domain $dest_number $dest_number 1 $uuid 2>&1 |";
-				print "Command: $command\n";
-				open(TEST,$command);
+
 				my $log_file;
 				my $error_file;
 				my $csv_file;
 
+				my $b_log_file;
+				my $b_error_file;
+				my $b_csv_file;
+
+
+				if( (scalar split(",", $msg)) == 7 )		# Simple sipp scenario (only out)
+				{
+					my ($user, $user_msisdn, $user_password, $scenario, $domain, $req_domain, $dest_number) = map {substr($_,index($_,"=")+1,length $_)} split(",", $msg);
+					my $uuid = generate_uuid();
+					$command = "sudo $scriptdir/sipp_test_launcher.pl 1 0 $local_ip 50001 scenarios/$scenario $user $user_msisdn $user_password $domain $req_domain $dest_number $dest_number 1 $uuid 2>&1 |";
+					
+				}else{										# Out and In scenario
+				
+					my ($user, $user_msisdn, $user_password, $scenario, $domain, $req_domain, $dest_number, $b_user, $b_msisdn, $b_password, $b_scenario, $b_domain_req, $b_domain_ip) = map {substr($_,index($_,"=")+1,length $_)} split(",", $msg);
+
+					# Receiver side
+					my $b_uuid = generate_uuid();
+					my $b_command = "sudo $scriptdir/sipp_test_launcher.pl 1 0 $local_ip 50001 scenarios/b_register.xml $b_user $b_msisdn $b_password $b_domain_req $b_domain_ip 00000000 00000000 1 $b_uuid scenarios/$b_scenario |";
+					print "Receiver Command: $b_command\n\n";
+					open(RECEIVER, $b_command);
+					while( my $data = <RECEIVER> )
+					{
+						print "RECEIVER: $data\n";
+
+						# Get the log file
+					    if ($data =~ /-message_file/){ 
+					    	($b_log_file) = $data =~ /-message_file (.*msg\.log?)/; 
+					    }
+					    if ($data =~ /-error_file/ ){ 
+					    	($b_error_file) = $data =~ /-error_file (.*error\.log?)/; 
+					   	}
+					    if ($data =~ /-inf / ){ 
+					    	($b_csv_file) = $data =~ /-inf (.*inject\.csv?)/;
+					   	}
+
+						last if $data =~ /^$/;
+					}
+					sleep 5;
+
+					# Sender (caller) side
+					my $uuid = generate_uuid();
+					$command = "sudo $scriptdir/sipp_test_launcher.pl 1 0 $local_ip 50001 scenarios/$scenario $user $user_msisdn $user_password $domain $req_domain $dest_number $dest_number 1 $uuid 2>&1 |";
+				}
+				print "Command: $command\n";
+				open(TEST,$command);
+
+
 				$conn->send_utf8( 'status:running');
-				while(my $data = <TEST>)
+				while( (my $data = <TEST>) )
 				{
 
 					# Get the log file
@@ -98,11 +142,16 @@ Net::WebSocket::Server->new(
 				
 
 				my $log_send = "";
+				my $class = "";
+				my $b_log_send = "";
+				my $b_class = "";
 				my $goodformat = 'CLASS="boldtable"';
 				my $badformat = 'CLASS="redrow"';
-				my $class = "";
 
+				#### CALLER TRACES ####
+				
 				#  If trace file exists, show it. Else Show error file
+				
 				if (-e $log_file) { 
 
 					# Send the log file to output-log
@@ -123,6 +172,32 @@ Net::WebSocket::Server->new(
 						$log_send .= '<tr><td '. $class .'><xmp>' . $message . '</xmp></td></tr>';
 					}
 				 	$log_send .= '</table>';
+				 	
+				 	#### CALLEE TRACES (SIDE B) ####
+				 	
+				 	if(-e $b_log_file){
+
+						# Send the log file to output-log
+						my $b_log_data = `cat $b_log_file`;
+						$b_log_data = $b_log_data . "\n-";
+		
+		
+						$b_log_send = '<TABLE BORDER>';
+						foreach my $b_message ( split(/\n\n-/, $b_log_data) ) {
+							
+							if( $b_message =~ /Unexpected/)
+							{
+								$b_class = $badformat;
+							}else{
+								$b_class = $goodformat;
+							}
+							
+							$b_log_send .= '<tr><td '. $b_class .'><xmp>' . $b_message . '</xmp></td></tr>';
+						}
+					 	$b_log_send .= '</table>';
+					 	$conn->send_utf8( 'output-log-callee:' . $b_log_send);
+				 	}
+				 	
 				}else{
 					my $error_data = `cat $error_file`;
 					$error_data =~ s/\</\&lt/g;
