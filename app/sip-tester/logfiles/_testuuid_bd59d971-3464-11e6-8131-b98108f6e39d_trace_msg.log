@@ -1,0 +1,54 @@
+Problem EAGAIN on socket  12 and poll_idx  is 3 
+Added first buffered message to socket 12
+Problem EWOULDBLOCK on socket  12 and poll_idx  is 3 
+Exit problem event on socket 12 
+Wrote 422 of 422 bytes in an output buffer.
+----------------------------------------------- 2016-06-17 08:23:17.139483
+TCP message received [508] bytes :
+
+SIP/2.0 401 Unauthorized
+Via: SIP/2.0/TCP 172.17.0.2:5060;received=47.62.131.223;rport=62232;branch=z9hG4bK-47-1-0
+From: <sip:40311851@staging.voip.lifeisbetteron.com>;tag=1
+To: <sip:40311851@staging.voip.lifeisbetteron.com>;tag=6ccf26c4a0e41e6a611a5b5914f90abc-302d
+Call-ID: 1-47@172.17.0.2
+CSeq: 1 REGISTER
+WWW-Authenticate: Digest realm="staging.voip.lifeisbetteron.com", nonce="V2PBhVdjs3VWBGR0/vG4mbRs+xFgjGFNC3/UnFMt+6pPXn4uU4wGkxjT+F6D", qop="auth"
+Server: Kamailio/Libon
+Content-Length: 0
+
+
+----------------------------------------------- 2016-06-17 08:23:17.140161
+TCP message sent (699 bytes):
+
+REGISTER sip:staging.voip.lifeisbetteron.com SIP/2.0
+Via: SIP/2.0/TCP 172.17.0.2:5060;rport;branch=z9hG4bK-47-1-3
+From: <sip:40311851@staging.voip.lifeisbetteron.com>;tag=1
+To: <sip:40311851@staging.voip.lifeisbetteron.com>
+Call-ID: 1-47@172.17.0.2
+CSeq: 2 REGISTER
+Contact: <sip:40311851@172.17.0.2:5060;transport=TCP>
+Authorization: Digest username="40311851",realm="staging.voip.lifeisbetteron.com",cnonce="6b8b4567",nc=00000001,qop=auth,uri="sip:90.84.151.39:5060",nonce="V2PBhVdjs3VWBGR0/vG4mbRs+xFgjGFNC3/UnFMt+6pPXn4uU4wGkxjT+F6D",response="e9c8284ce48a779fc1f2b1719b270c9a",algorithm=MD5
+Max-Forwards: 15
+Expires: 3600
+User-Agent: Linphone/3.5.2 (QAP Tester)
+Content-Length: 0
+
+
+----------------------------------------------- 2016-06-17 08:23:17.174448
+TCP message received [490] bytes :
+
+SIP/2.0 200 OK
+Via: SIP/2.0/TCP 172.17.0.2:5060;received=47.62.131.223;rport=62232;branch=z9hG4bK-47-1-3
+From: <sip:40311851@staging.voip.lifeisbetteron.com>;tag=1
+To: <sip:40311851@staging.voip.lifeisbetteron.com>;tag=6ccf26c4a0e41e6a611a5b5914f90abc-7303
+Call-ID: 1-47@172.17.0.2
+CSeq: 2 REGISTER
+P-LibonBackgroundModeDuration: 1206
+P-LBMD: 1206
+P-QOS: 1
+P-ABT: 100
+Contact: <sip:40311851@172.17.0.2:5060;transport=TCP>;expires=600
+Server: Kamailio/Libon
+Content-Length: 0
+
+

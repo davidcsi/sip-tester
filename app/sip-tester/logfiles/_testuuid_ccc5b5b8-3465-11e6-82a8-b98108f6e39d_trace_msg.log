@@ -1,0 +1,54 @@
+Problem EAGAIN on socket  12 and poll_idx  is 3 
+Added first buffered message to socket 12
+Problem EWOULDBLOCK on socket  12 and poll_idx  is 3 
+Exit problem event on socket 12 
+Wrote 407 of 407 bytes in an output buffer.
+----------------------------------------------- 2016-06-17 08:30:52.480791
+TCP message received [494] bytes :
+
+SIP/2.0 401 Unauthorized
+Via: SIP/2.0/TCP 172.17.0.2:5060;received=47.62.131.223;branch=z9hG4bK-79-1-0;rport=58605
+From: <sip:2932551@qap.voip.lifeisbetteron.com>;tag=1
+To: <sip:2932551@qap.voip.lifeisbetteron.com>;tag=39cd7abd44d1d6dd712608de05eefc77-ae24
+Call-ID: 1-79@172.17.0.2
+CSeq: 1 REGISTER
+WWW-Authenticate: Digest realm="qap.voip.lifeisbetteron.com", nonce="V2PDS1djtTsg1v+BvYmawglwTTL748i0G1vpSoC2IZtV8c4YdmVUEFxnt0iD", qop="auth"
+Server: Kamailio/Libon
+Content-Length: 0
+
+
+----------------------------------------------- 2016-06-17 08:30:52.481498
+TCP message sent (679 bytes):
+
+REGISTER sip:qap.voip.lifeisbetteron.com SIP/2.0
+Via: SIP/2.0/TCP 172.17.0.2:5060;rport;branch=z9hG4bK-79-1-3
+From: <sip:2932551@qap.voip.lifeisbetteron.com>;tag=1
+To: <sip:2932551@qap.voip.lifeisbetteron.com>
+Call-ID: 1-79@172.17.0.2
+CSeq: 2 REGISTER
+Contact: <sip:2932551@172.17.0.2:5060;transport=TCP>
+Authorization: Digest username="2932551",realm="qap.voip.lifeisbetteron.com",cnonce="6b8b4567",nc=00000001,qop=auth,uri="sip:90.84.151.46:5060",nonce="V2PDS1djtTsg1v+BvYmawglwTTL748i0G1vpSoC2IZtV8c4YdmVUEFxnt0iD",response="e12f058f3932cdf49ca5df6b7a1f0a1f",algorithm=MD5
+Max-Forwards: 15
+Expires: 3600
+User-Agent: Linphone/3.5.2 (QAP Tester)
+Content-Length: 0
+
+
+----------------------------------------------- 2016-06-17 08:30:52.524829
+TCP message received [479] bytes :
+
+SIP/2.0 200 OK
+Via: SIP/2.0/TCP 172.17.0.2:5060;received=47.62.131.223;branch=z9hG4bK-79-1-3;rport=58605
+From: <sip:2932551@qap.voip.lifeisbetteron.com>;tag=1
+To: <sip:2932551@qap.voip.lifeisbetteron.com>;tag=39cd7abd44d1d6dd712608de05eefc77-5a52
+Call-ID: 1-79@172.17.0.2
+CSeq: 2 REGISTER
+P-LibonBackgroundModeDuration: 1206
+P-LBMD: 1206
+P-QOS: 1
+P-ABT: 100
+Contact: <sip:2932551@172.17.0.2:5060;transport=TCP>;expires=600
+Server: Kamailio/Libon
+Content-Length: 0
+
+

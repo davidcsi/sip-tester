@@ -435,11 +435,13 @@
 
 	<div id='output-list'>
 	</div>
+
 	<h1>Output Log (Caller)</h1>
 	<div id='output-log'>
 	</div>
+	
 	<h1>Output Log (Callee)</h1>
-	<div id='output-log'>
+	<div id='output-log-callee'>
 	</div>
 	
   </body>

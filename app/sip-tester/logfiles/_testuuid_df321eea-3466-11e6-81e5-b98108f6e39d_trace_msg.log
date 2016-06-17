@@ -1,0 +1,54 @@
+Problem EAGAIN on socket  12 and poll_idx  is 3 
+Added first buffered message to socket 12
+Problem EWOULDBLOCK on socket  12 and poll_idx  is 3 
+Exit problem event on socket 12 
+Wrote 409 of 409 bytes in an output buffer.
+----------------------------------------------- 2016-06-17 08:38:32.892222
+TCP message received [496] bytes :
+
+SIP/2.0 401 Unauthorized
+Via: SIP/2.0/TCP 172.17.0.2:5060;received=47.62.131.223;branch=z9hG4bK-117-1-0;rport=55201
+From: <sip:2932551@qap.voip.lifeisbetteron.com>;tag=1
+To: <sip:2932551@qap.voip.lifeisbetteron.com>;tag=39cd7abd44d1d6dd712608de05eefc77-3c23
+Call-ID: 1-117@172.17.0.2
+CSeq: 1 REGISTER
+WWW-Authenticate: Digest realm="qap.voip.lifeisbetteron.com", nonce="V2PFGFdjtwgir00HW6UrTkogr99p8pVO8UIXAc5HzoiCjbx1t89njEUnDmGC", qop="auth"
+Server: Kamailio/Libon
+Content-Length: 0
+
+
+----------------------------------------------- 2016-06-17 08:38:32.892812
+TCP message sent (681 bytes):
+
+REGISTER sip:qap.voip.lifeisbetteron.com SIP/2.0
+Via: SIP/2.0/TCP 172.17.0.2:5060;rport;branch=z9hG4bK-117-1-3
+From: <sip:2932551@qap.voip.lifeisbetteron.com>;tag=1
+To: <sip:2932551@qap.voip.lifeisbetteron.com>
+Call-ID: 1-117@172.17.0.2
+CSeq: 2 REGISTER
+Contact: <sip:2932551@172.17.0.2:5060;transport=TCP>
+Authorization: Digest username="2932551",realm="qap.voip.lifeisbetteron.com",cnonce="6b8b4567",nc=00000001,qop=auth,uri="sip:90.84.151.46:5060",nonce="V2PFGFdjtwgir00HW6UrTkogr99p8pVO8UIXAc5HzoiCjbx1t89njEUnDmGC",response="aa484bab0294d197c864d5208c3e8793",algorithm=MD5
+Max-Forwards: 15
+Expires: 3600
+User-Agent: Linphone/3.5.2 (QAP Tester)
+Content-Length: 0
+
+
+----------------------------------------------- 2016-06-17 08:38:32.942813
+TCP message received [481] bytes :
+
+SIP/2.0 200 OK
+Via: SIP/2.0/TCP 172.17.0.2:5060;received=47.62.131.223;branch=z9hG4bK-117-1-3;rport=55201
+From: <sip:2932551@qap.voip.lifeisbetteron.com>;tag=1
+To: <sip:2932551@qap.voip.lifeisbetteron.com>;tag=39cd7abd44d1d6dd712608de05eefc77-4a55
+Call-ID: 1-117@172.17.0.2
+CSeq: 2 REGISTER
+P-LibonBackgroundModeDuration: 1206
+P-LBMD: 1206
+P-QOS: 1
+P-ABT: 100
+Contact: <sip:2932551@172.17.0.2:5060;transport=TCP>;expires=600
+Server: Kamailio/Libon
+Content-Length: 0
+
+

@@ -51,7 +51,10 @@ Net::WebSocket::Server->new(
 				
 					my ($user, $user_msisdn, $user_password, $scenario, $domain, $req_domain, $dest_number, $b_user, $b_msisdn, $b_password, $b_scenario, $b_domain_req, $b_domain_ip) = map {substr($_,index($_,"=")+1,length $_)} split(",", $msg);
 
-					# Receiver side
+					#################
+					# Receiver side #
+					#################
+					
 					my $b_uuid = generate_uuid();
 					my $b_command = "sudo $scriptdir/sipp_test_launcher.pl 1 0 $local_ip 50001 scenarios/b_register.xml $b_user $b_msisdn $b_password $b_domain_req $b_domain_ip 00000000 00000000 1 $b_uuid scenarios/$b_scenario |";
 					print "Receiver Command: $b_command\n\n";
@@ -61,14 +64,17 @@ Net::WebSocket::Server->new(
 						print "RECEIVER: $data\n";
 
 						# Get the log file
-					    if ($data =~ /-message_file/){ 
-					    	($b_log_file) = $data =~ /-message_file (.*msg\.log?)/; 
+					    if ($data =~ /trace:/){
+					    	($b_log_file) = $data =~ /trace: (.*msg\.log?)/; 
+					    	print "Log file: $b_log_file\n";
 					    }
-					    if ($data =~ /-error_file/ ){ 
-					    	($b_error_file) = $data =~ /-error_file (.*error\.log?)/; 
+					    if ($data =~ /error:/ ){ 
+					    	($b_error_file) = $data =~ /error: (.*error\.log?)/; 
+					    	print "Error file: $b_error_file\n";
 					   	}
-					    if ($data =~ /-inf / ){ 
-					    	($b_csv_file) = $data =~ /-inf (.*inject\.csv?)/;
+					    if ($data =~ /csv:/ ){ 
+					    	($b_csv_file) = $data =~ /csv: (.*inject\.csv?)/;
+					    	print "CSV file: $b_csv_file\n";
 					   	}
 
 						last if $data =~ /^$/;
@@ -175,6 +181,7 @@ Net::WebSocket::Server->new(
 				 	
 				 	#### CALLEE TRACES (SIDE B) ####
 				 	
+				 	print "Trying to find b_log_file: $b_log_file\n";
 				 	if(-e $b_log_file){
 
 						# Send the log file to output-log
